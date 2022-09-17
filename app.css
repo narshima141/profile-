@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#outer{
+    width: 450px;
+    height: 100%;
+    background-color: brown;
+    margin: auto;
+}
+
+#image1{
+    width: 90%;
+    height: 400px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#job{
+    text-align: center;
+    color: bisque;
+}
+
+
+#company{
+    margin: 10px;
+    text-align: center;
+    color: bisque;
+}
+
+
+#inner{
+    margin:20px;
+    text-align: center;
+    color: bisque;
+}
+
+#languages{
+    margin-left: 20px;
+    color: aquamarine;
+    
+}
+
+#list{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    color:ghostwhite;
+}
+
+
+#list > li {
+    margin: 10px;
+}
